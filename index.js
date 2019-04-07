@@ -24,6 +24,9 @@ async function switchTheme (target) {
   try {
     const colorTheme = workspace.getConfiguration('autoDarkMode').get(`${target}Theme`)
     workspace.getConfiguration('workbench').update('colorTheme', colorTheme, ConfigurationTarget.Global)
+
+    const iconTheme = workspace.getConfiguration('autoDarkMode').get(`${target}IconTheme`)
+    workspace.getConfiguration('workbench').update('iconTheme', iconTheme, ConfigurationTarget.Global)
   } finally {
     // Give VS Code some time to save the new settings
     setTimeout(release, 1000)
