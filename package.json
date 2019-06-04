@@ -36,12 +36,12 @@
         },
         "autoDarkMode.darkIconTheme": {
           "type": "string",
-          "default": "vs-seti",
+          "default": null,
           "description": "Specifies which icon theme is to be shown when dark mode is on."
         },
         "autoDarkMode.lightIconTheme": {
           "type": "string",
-          "default": "vs-seti",
+          "default": null,
           "description": "Specifies which icon theme is to be shown when dark mode is off."
         }
       }
