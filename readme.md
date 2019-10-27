@@ -10,8 +10,8 @@ The extension exposes four configuration fields for you to select a dark and a l
 
 - `autoDarkMode.darkTheme` - Specifies which theme is to be shown when dark mode is on
 - `autoDarkMode.lightTheme` - Specifies which theme is to be shown when dark mode is off
-- `autoDarkMode.darkIconTheme` - Specifies which icon theme is to be shown when dark mode is on
-- `autoDarkMode.lightIconTheme` - Specifies which icon theme is to be shown when dark mode is off
+- `autoDarkMode.darkIconTheme` - Specifies which icon theme is to be shown when dark mode is on (optional)
+- `autoDarkMode.lightIconTheme` - Specifies which icon theme is to be shown when dark mode is off (optional)
 
 ## Status
 
